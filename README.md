@@ -1,5 +1,9 @@
 # flask_microservices
 
+This is a basic approach of building a Microservice on top of Flask, with some useful packages like:
+
+Flask
+
 **Endpoints**:
 
 |Method|URI|Description| Status |
