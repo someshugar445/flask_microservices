@@ -91,8 +91,6 @@ def update_products(product_id):
     product = request_payload
     existing_product = list(collection.find({"product_id": product_id}))
     invalid = False
-    # myquery = {"product_name": "apple flavour jam jam"}
-    # newvalues = {"$set": {"product_name": "apple flavour jam jam"}}
     myquery = existing_product[0]
     newvalues = {"$set": product}
     if invalid:
